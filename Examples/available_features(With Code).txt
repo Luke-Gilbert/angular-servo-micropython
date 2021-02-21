@@ -1,4 +1,4 @@
-Required Code (Must(Usually) Be Used)
+Required Code (Must(Usually)) Be Used)
 1. 'import servo_angles' - to import the module
 2. 'Servo = servo_angles.servo' - Call the class a variable name. We will assume you called it 'Servo' bellow.
 
