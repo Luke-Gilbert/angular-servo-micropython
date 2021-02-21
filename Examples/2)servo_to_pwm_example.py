@@ -8,10 +8,9 @@
 
 import servo_angles 
 Servo = servo_angles.servo()
-import utime
 pin = 2
 while True:
-    for x in range(900,8000,): #Loop and increment x by 5 until reaches 1000
+    for x in range(900,8000): #Loop and increment x by 1 until reaches 1000
         print(x)
         Servo.pwm(x, pin) # Set servo pwm to x
-        utime.sleep(0.01)# Sleep 0,01s between movements
+        
