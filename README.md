@@ -19,15 +19,3 @@ Do the Action Code                        #The bellow assumes the Class Variable
 ** Says first and second positional argument, this is from this perspective; Technically because, 'def angle(self, angle, pin):' in the code makes it the second and third positional arguments.
 
 I strongly recommend you see the examples in the example folder.
-Here is the main example:
-
-import servo_angles 
-Servo = servo_angles.servo()
-Servo.angle(180, 2)
-import utime
-pin = 2
-while True:
-    utime.sleep(0.5) #Wait for it to move (If on 180degrees already)
-    for x in range(180): #Loop and increment x by 1
-        Servo.angle(x, pin) # Set servo angle to X
-        utime.sleep(0.05)# Sleep 0,05s between movements
