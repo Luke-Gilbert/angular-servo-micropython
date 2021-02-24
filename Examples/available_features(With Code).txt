@@ -1,6 +1,6 @@
 Required Code (Must(Usually) Be Used)
 1. 'import servo_angles' - to import the module
-2. 'Servo = servo_angles.servo' - Call the class a variable name. We will assume you called it 'Servo' bellow.
+2. 'Servo = servo_angles.servo()' - Call the class a variable name. We will assume you called it 'Servo' bellow.
 
 Non Required Code
 1. 'Servo.angle(angle, pin number)' - Set the servo connected to the given pin number to the given angle (See example 'Servo_to_angle_example.py')
